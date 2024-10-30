@@ -1,0 +1,215 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: 'Genericons';
+    src: url('genericons/genericons.css');
+}
+
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: 'Genericons';
+    src: url('genericons/genericons.css');
+}
+
+
+ .modal-body{
+  padding: 0px !important;
+  
+}
+
+.largeimage{
+width: 100%;
+
+}
+
+.boxspace{
+  visibility: hidden;
+}
+
+.smallico{
+  width: 15%;
+  float: left;
+  padding: 2px;
+}
+
+.modal-footer{
+  border-top: none !important;
+  margin-top: 0px !important;
+}
+
+#cf7_controls span {
+  padding-right:2em;
+  cursor:pointer;
+}
+#cf7 {
+  position:relative;
+
+}
+#cf7 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7 img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+.close{
+position: absolute;
+z-index: 500;
+    float: right;
+    right: 5px;
+    font-size: 3em;
+    top: -0.1em;
+    opacity: 0.3;
+}
+
+#revsizetbl tr:nth-child(even){
+  background-color: rgba(158, 211, 230, 0.38);
+
+}
+#revsizetbl textarea{
+
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize:none;
+
+    /*-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;*/
+ background-color: initial;
+ font-weight: bold;
+color: rgb(0, 139, 139);
+    width: 100%;
+
+
+}
+
+
+.editoff{
+visibility: hidden;
+}
+
+.editon{
+  visibility: visible;
+}
+
+#revsizetbl{
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#revsizetbl tr td{
+	    width: 20% !important;
+}
+.tblcontainer{
+width: 100%;
+}
+
+.genericon{
+font-size: 27px !important;
+}
+
+.menuitem{
+    display: inline-flex;
+    font-size: 20px !important;
+}
+
+.binlocked{
+  visibility: hidden;
+}
+.binunlocked{
+  visibility: visible;
+}
+
+.accordioncss{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.ui-state-highlight{
+    border: 1px dashed #0073aa;/*#e5e5e5*/
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  height: 50px;
+}
+.bottombar{
+    position: fixed !important;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px;
+    z-index: 10;
+    padding-right: 30px;
+    background-color: #23282d;
+    color: #ffffff;
+}
+.bottombar h2{
+    color: #ffffff !important;
+        font-weight: 100;
+    font-size: 15px;
+}
+.fixedsave{
+   position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin: 12px !important;
+  }
+#wpcontent{
+  padding-left: 0px !important;
+}
+
+.wppostbox{
+    min-width: 255px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+  }
+.titleheaders{
+  
+  padding-left: 10px !important;
+}
+
+.pagetitleedit .genericon{
+  vertical-align: text-bottom !important;
+}
+.pagetitleedit{
+  font-size: 15px;
+  padding-left: 10px;
+}
+.pagetitles{
+  padding-left: 30px;
+}
+ .pluginform
+{
+      padding-bottom: 100px !important;
+
+}
+.hiddennames{
+  display: none;
+}
+.responcivebar{
+  position: fixed;
+    margin-top: -35px;
+    right: 0;
+}
+.responcivebar .button{
+      height: 36px;
+    padding: 5px;
+}
+
